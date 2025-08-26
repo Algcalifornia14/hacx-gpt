@@ -45,8 +45,9 @@ _PROVIDERS = {
 ##############  For Open Router api
 API_PROVIDER = "openrouter"
 
-##############  For DeepSeek api
-# API_PROVIDER = "deepseek"
+##############  For Open Router api
+API_PROVIDER = "openrouter"
+
 
 
 
@@ -71,7 +72,7 @@ class Config:
     MODEL_NAME = _PROVIDERS[API_PROVIDER]["MODEL_NAME"]
     
 
-    API_KEY_NAME = "HacxGPT-API"  # API key environment variable name
+    API_KEY_NAME = "HacxGPT-API"  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
     ENV_FILE = ".hacx"
 
 
